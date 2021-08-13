@@ -57,6 +57,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin: 0;
 }
 
 .menu-btn-container {
@@ -624,6 +625,7 @@ footer p {
     display: flex !important;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     height: auto;
     width: 100%;
     background: transparent;
