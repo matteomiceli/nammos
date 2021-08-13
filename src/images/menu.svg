@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="43"
+   height="43"
+   viewBox="0 0 43 43"
+   fill="none"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="menu.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.6191861"
+     inkscape:cx="-23.624096"
+     inkscape:cy="28.735743"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <g
+     id="g832"
+     transform="translate(0,9)">
+    <line
+       y1="1"
+       x2="43"
+       y2="1"
+       stroke="#ffffff"
+       stroke-width="2"
+       id="line2"
+       x1="0" />
+    <line
+       y1="12"
+       x2="43"
+       y2="12"
+       stroke="#ffffff"
+       stroke-width="2"
+       id="line4"
+       x1="0" />
+    <line
+       y1="24"
+       x2="43"
+       y2="24"
+       stroke="#ffffff"
+       stroke-width="2"
+       id="line6"
+       x1="0" />
+  </g>
+</svg>
