@@ -18,5 +18,5 @@ menuBtn.click(() => {
 closeBtn.click(() => {
   menuOverlay.css("opacity", "0");
   menuOverlay.css("pointer-events", "none");
-  menuOverlay.css("transform", "translateY(200px)");
+  menuOverlay.css("transform", "translateY(-50px)");
 });

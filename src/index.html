@@ -20,7 +20,7 @@
       rel="stylesheet"
       href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
     />
-	<script defer src="./js/mobileNav.js"></script>
+    <script defer src="./js/mobileNav.js"></script>
     <!--<script type="text/javascript" src='//places.singleplatform.com/static/js/mobile-redirect-min.js'></script>
 <script type="text/javascript">
     redirect_mobile_browser('http://places.singleplatform.com/nammos-estiatorio-0/menu?ref=integration');
@@ -120,7 +120,7 @@
         <div class="menu-btn-container">
           <?xml version="1.0" encoding="UTF-8" standalone="no"?>
           <svg
-			class="menu-btn"
+            class="menu-btn"
             width="43"
             height="43"
             viewBox="0 0 43 43"
@@ -190,6 +190,9 @@
 
     <div class="landing">
       <img class="landing-logo" src="./images/landing-logo.svg" />
+      <h1 class="landing-text">
+        Bringing the traditional Greek dining experience to Fraser Street.
+      </h1>
       <a href="menu.html"
         ><button class="btn btn1" id="btn1">View Menu</button></a
       >
@@ -204,13 +207,57 @@
 
       <div class="s1-content">
         <h2>
-          Bringing the traditional Greek dining experience to Fraser Street. Our
-          chef has designed the menu with each dish served family style, to be
-          shared and enjoyed amongst the table.
+          Our chef has designed the menu with each dish served family style, to
+          be shared and enjoyed amongst the table.
         </h2>
+        <div> 
+          <a href="#" class="">
+            <p class="">See Our Menu</p>
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <svg
+              class="arrow"
+              viewBox="0 0 129 129"
+              version="1.1"
+              id="svg4"
+              sodipodi:docname="down_arrow.svg"
+              inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+              xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+              xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:svg="http://www.w3.org/2000/svg"
+            >
+              <defs id="defs8" />
+              <sodipodi:namedview
+                id="namedview6"
+                pagecolor="#505050"
+                bordercolor="#eeeeee"
+                borderopacity="1"
+                inkscape:pageshadow="0"
+                inkscape:pageopacity="0"
+                inkscape:pagecheckerboard="0"
+                showgrid="false"
+                inkscape:zoom="6.0155039"
+                inkscape:cx="64.416881"
+                inkscape:cy="64.5"
+                inkscape:window-width="1920"
+                inkscape:window-height="1011"
+                inkscape:window-x="0"
+                inkscape:window-y="0"
+                inkscape:window-maximized="1"
+                inkscape:current-layer="svg4"
+              />
+              <path
+                d="M121.3 34.6c-1.6-1.6-4.2-1.6-5.8 0l-51 51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8 0-1.6 1.6-1.6 4.2 0 5.8l53.9 53.9c.8.8 1.8 1.2 2.9 1.2 1 0 2.1-.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2.1-5.8z"
+                id="path2"
+                style="fill: #666666; fill-opacity: 1"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
+      <div id="menusContainer"></div>
     </div>
-
+<!-- 
     <div class="hours-section" id="hours">
       <h2>Now Open for Brunch</h2>
       <h1>Mon - Thurs 11am-10pm</h1>
@@ -228,7 +275,6 @@
     <div class="section2" id="s2">
       <div class="s2-title">
         <h2>Our Kitchen</h2>
-        <!-- <div class="underline"></div> -->
       </div>
 
       <div class="s2-grid-hold">
@@ -311,7 +357,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- <div class="section3" id="s3">
 
@@ -424,6 +470,34 @@
 
     <script src="../jquery-1.12.4/jquery-1.12.4.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://menus.singleplatform.co/businesses/storefront/?apiKey=ke09z8icq4xu8uiiccighy1bw"></script>
+    <script>
+      var options = {};
+      options['PrimaryBackgroundColor'] = '#ffffff';
+      options['MenuDescBackgroundColor'] = '#ffffff';
+      options['SectionTitleBackgroundColor'] = '#ffffff';
+      options['SectionDescBackgroundColor'] = '#ffffff';
+      options['ItemBackgroundColor'] = '#ffffff';
+      options['PrimaryFontFamily'] = 'Helvetica';
+      options['BaseFontSize'] = '16px';
+      options['FontCasing'] = 'Default';
+      options['PrimaryFontColor'] = '#333333';
+      options['MenuDescFontColor'] = '#333333';
+      options['SectionTitleFontColor'] = '#333333';
+      options['SectionDescFontColor'] = '#333333';
+      options['ItemTitleFontColor'] = '#333333';
+      options['FeedbackFontColor'] = '#333333';
+      options['ItemDescFontColor'] = '#333333';
+      options['ItemPriceFontColor'] = '#333333';
+      options['HideDisplayOptionPhotos'] = 'true';
+      options['HideDisplayOptionDisclaimer'] = 'true';
+      options['HideDisplayOptionFeedback'] = 'true';
+      options['HideDisplayOptionClaim'] = 'true';
+      options['MenuTemplate'] = '2';
+      options['MenuIframe'] = 'true';
+      // options['DisplayMenu']  = '2090069';
+      new BusinessView("nammos-estiatorio-0", "menusContainer", options);
+  </script>
   </body>
 
   <!-- Mirrored from nammos.ca/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Jul 2021 23:32:40 GMT -->
