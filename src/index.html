@@ -21,6 +21,7 @@
       href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
     />
     <script defer src="./js/mobileNav.js"></script>
+    <script defer src="js/homeMenu.js"></script>
     <!--<script type="text/javascript" src='//places.singleplatform.com/static/js/mobile-redirect-min.js'></script>
 <script type="text/javascript">
     redirect_mobile_browser('http://places.singleplatform.com/nammos-estiatorio-0/menu?ref=integration');
@@ -210,12 +211,26 @@
           Our chef has designed the menu with each dish served family style, to
           be shared and enjoyed amongst the table.
         </h2>
-        <div> 
-          <a href="#" class="">
-            <p class="">See Our Menu</p>
+        <div>
+          <div id="menusContainer">
+            <script
+              data-base_font_size="16px"
+              data-menu_desc_background_color="#ffffff"
+              data-primary_background_color="#ffffff"
+              data-section_desc_background_color="#ffffff"
+              data-section_title_background_color="#ffffff"
+              data-hide_cover_photo="true"
+              data-hide_disclaimer="true"
+              data-location="nammos-estiatorio-0"
+              data-api_key="ke09z8icq4xu8uiiccighy1bw"
+              id="singleplatform-menu"
+              src="https://menus.singleplatform.com/widget"
+            ></script>
+          </div>
+          <button id="toggle-menu-btn" type="button">See Our Menu 
             <?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <svg
-              class="arrow"
+              id="arrow"
               viewBox="0 0 129 129"
               version="1.1"
               id="svg4"
@@ -249,15 +264,13 @@
               <path
                 d="M121.3 34.6c-1.6-1.6-4.2-1.6-5.8 0l-51 51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8 0-1.6 1.6-1.6 4.2 0 5.8l53.9 53.9c.8.8 1.8 1.2 2.9 1.2 1 0 2.1-.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2.1-5.8z"
                 id="path2"
-                style="fill: #666666; fill-opacity: 1"
               />
             </svg>
-          </a>
+          </button>
         </div>
       </div>
-      <div id="menusContainer"></div>
     </div>
-<!-- 
+    <!-- 
     <div class="hours-section" id="hours">
       <h2>Now Open for Brunch</h2>
       <h1>Mon - Thurs 11am-10pm</h1>
@@ -470,7 +483,11 @@
 
     <script src="../jquery-1.12.4/jquery-1.12.4.min.js"></script>
     <script src="../bootstrap-3.3.7-dist/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://menus.singleplatform.co/businesses/storefront/?apiKey=ke09z8icq4xu8uiiccighy1bw"></script>
+
+
+    <!-- Old Single Platform integration -->
+
+    <!-- <script type="text/javascript" src="https://menus.singleplatform.co/businesses/storefront/?apiKey=ke09z8icq4xu8uiiccighy1bw"></script>
     <script>
       var options = {};
       options['PrimaryBackgroundColor'] = '#ffffff';
@@ -497,7 +514,7 @@
       options['MenuIframe'] = 'true';
       // options['DisplayMenu']  = '2090069';
       new BusinessView("nammos-estiatorio-0", "menusContainer", options);
-  </script>
+  </script> -->
   </body>
 
   <!-- Mirrored from nammos.ca/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Jul 2021 23:32:40 GMT -->
