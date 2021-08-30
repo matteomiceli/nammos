@@ -201,7 +201,7 @@ a {
   font-size: 13pt;
   z-index: 10;
 }
-
+5050
 a #btn1 {
   color: #fff;
 }
@@ -544,7 +544,7 @@ a #btn1:hover {
 }
 
 .s2-bucket-2 {
-  float: ;
+
 }
 
 /*---------------*/
@@ -593,7 +593,7 @@ a #btn1:hover {
 
 .social-icon:hover {
   cursor: pointer;
-  opacity: ;
+
   /*background-color: transparent;*/
   /*border: 2px solid #666;*/
 }
@@ -695,7 +695,6 @@ footer p {
   }
 
   .news-type {
-    text-align: ;
     width: 100%;
     /*margin-left: 100px;*/
   }
@@ -741,7 +740,6 @@ footer p {
   }
 
   .news-type {
-    text-align: ;
     width: 70%;
     margin-left: 180px;
   }
@@ -772,6 +770,31 @@ footer p {
     text-align: center;
     padding: 35px;
   }
+
+  .section5 {
+    padding: 30px 0;
+  }
+
+  .section5-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .section5-map {
+    align-self: center;
+    margin-right: 8rem;
+  }
+
+  .contact-info {
+    margin: 0;
+  }
+
+  .social-media {
+    margin-top: 15px;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -781,7 +804,6 @@ footer p {
   }
 
   .news-type {
-    text-align: ;
     width: 80%;
     margin-left: 100px;
   }
