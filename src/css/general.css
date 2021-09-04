@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Futura";
+  src: url('../fonts/FuturaPTDemi.otf');
+}
+
+@font-face {
+  font-family: 'Futura Light';
+  src: url('../fonts/FuturaLight.otf');
+}
+
 .resize-animation-handler {
   animation: none !important;
   transition: none !important;
@@ -7,6 +17,11 @@ html {
   width: 100%;
   scroll-behavior: smooth;
   /*overflow: hidden;*/
+}
+
+body {
+  font-family: "Futura Light";
+  font-weight: bold;
 }
 
 #mainNav {
@@ -105,6 +120,7 @@ html {
 li a {
   color: rgb(179, 179, 179);
   font-size: 2.2rem;
+  transition: all .2s ease-in-out;
 }
 
 li a:hover {
@@ -153,12 +169,10 @@ li a:focus   {
   font-size: 1.8rem;
 }
 
-.landing h2 {
-  font-size: 18pt;
+.landing h1 {
+  font-size: 16pt;
   color: #fff;
   font-weight: 200;
-  line-height: 1.4em;
-  /*text-transform: uppercase;*/
 }
 
 h2 {
@@ -195,20 +209,17 @@ a {
   width: 200px;
   height: 50px;
   border-radius: 50px;
-  background-color: transparent;
+  background-color: #fff;
   border: 2px solid #fff;
-  color: #fff;
+  color: black;
   font-size: 13pt;
   z-index: 10;
-}
-
-a #btn1 {
-  color: #fff;
+  transition: all ease-in-out .2s;
 }
 
 a #btn1:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: transparent;
+  color: white;
 }
 
 #btn2 {
@@ -360,17 +371,18 @@ a #btn1:hover {
   margin: 40px auto;
   justify-content: center;
   align-items: center;
-  padding: 0 12px;
+  padding: 0 20px;
   border-radius: 100px;
   height: 50px;
   fill: #666;
+  transition: all .2s ease-in-out;
 }
 
 #toggle-menu-btn:hover {
-  background-color: white;
+  background-color: #303030;
   border: 2px #303030 solid;
-  color: #303030;
-  fill: #303030;
+  color: white;
+  fill: white;
 }
 
 #arrow { 
@@ -654,6 +666,32 @@ footer p {
   max-width: 320px;
 }
 
+/* ABOUT */
+
+.about-splash {
+  background: url(../images/about-hero.jpg) center no-repeat;
+  background-size: cover;  
+  height: 300px;
+}
+
+.about-container {
+  width: 90%;
+  margin: 100px auto;
+  color: #666;
+}
+
+.about-container h1, p {
+  text-align: center;
+}
+
+.about-container h1 {
+  margin-bottom: 30px;
+}
+
+.about-container p {
+  font-size: 1.8rem;
+}
+
 /*-------------------------*/
 /*-------------------------*/
 /*---------NEWS--------*/
@@ -795,6 +833,16 @@ footer p {
     margin-top: 15px;
   }
 
+  /* ABOUT */
+
+  .about-container {
+    width: 80%;
+  }
+
+  .about-container p {
+    font-size: 2rem;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -879,4 +927,15 @@ footer p {
     margin-bottom: 40px;
     /*float: left;*/
   }
+
+  /* ABOUT */
+  .about-splash {
+    height: 400px;
+  }
+
+  .about-container {
+    width: 70%;
+    margin: 150px auto;
+  }
+
 }
