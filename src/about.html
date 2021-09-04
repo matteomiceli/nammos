@@ -15,10 +15,6 @@
     <link rel="stylesheet" type="text/css" href="css/general.css" />
 
     <link rel="stylesheet" type="text/css" href="css/grid.css" />
-    <link
-      rel="stylesheet"
-      href="./maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
-    />
     <script defer src="./jquery-1.12.4/jquery-1.12.4.min.js"></script>
     <script defer src="js/mobileNav.js"></script>
   </head>
@@ -172,7 +168,7 @@
       </div>
     </nav>
 
-    <div class="about-splash"></div>
+    <div class="half-splash about-splash"></div>
     <div class="about-container">
       <h1>Our Story</h1>
       <p>
@@ -180,7 +176,10 @@
         aim to bring that to our guests everyday, in a clean and modern
         atmosphere. Our dishes are served family style, meant to be shared and
         enjoyed slowly. Our carefully curated drinks list offers house-made
-        cocktails and exclusively Greek wines. Nammos is the perfect setting for
+        cocktails and exclusively Greek wines. 
+        <br>
+        <br>
+        Nammos is the perfect setting for
         any occasion that thrives off of good food, drinks and conversation.
         Whether it’s a family dinner, a party or date night, you will feel right
         at home here.
@@ -189,12 +188,14 @@
 
     <div class="section5" id="s5">
       <div class="section5-container">
-        <a
-          class="section5-map"
-          href="https://www.google.ca/maps/place/3980+Fraser+St,+Vancouver,+BC+V5V+4E4/@49.2494357,-123.092077,17z/data=!3m1!4b1!4m2!3m1!1s0x548673ff396e3871:0xaae26cdbad6d1322"
-          target="_blank"
-          ><div class="footer-map"></div
-        ></a>
+        <div class="map-container">
+          <a
+            class="section5-map"
+            href="https://www.google.ca/maps/place/3980+Fraser+St,+Vancouver,+BC+V5V+4E4/@49.2494357,-123.092077,17z/data=!3m1!4b1!4m2!3m1!1s0x548673ff396e3871:0xaae26cdbad6d1322"
+            target="_blank"
+            ><img class="footer-map" src="./images/map.png" alt="map"
+          /></a>
+        </div>
 
         <div class="contact-info">
           <!-- <div class="s5-title">
@@ -223,16 +224,25 @@
               src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
             ></script>
           </div>
-          <div class="social-media">
+          <div class="social-media-container">
             <a href="https://www.facebook.com/NammosVan/" target="_blank"
-              ><div class="social-icon social-icon-1"></div
-            ></a>
+              ><img
+                class="social-icon"
+                src="./images/facebook.svg"
+                alt="facebook"
+            /></a>
             <a href="https://www.instagram.com/nammosvan/" target="_blank"
-              ><div class="social-icon social-icon-2"></div
-            ></a>
+              ><img
+                class="social-icon"
+                src="./images/instagram.svg"
+                alt="instagram"
+            /></a>
             <a href="https://twitter.com/NammosVan" target="_blank"
-              ><div class="social-icon social-icon-3"></div
-            ></a>
+              ><img
+                class="social-icon"
+                src="./images/twitter.svg"
+                alt="twitter"
+            /></a>
           </div>
         </div>
       </div>
@@ -248,5 +258,7 @@
         </p>
       </div>
     </footer>
+
+
   </body>
 </html>

@@ -12,7 +12,9 @@
 	<link rel="stylesheet" type="text/css" href="css/general.css">
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
-	<link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script defer src="../jquery-1.12.4/jquery-1.12.4.min.js"></script>
+	<script defer src="../bootstrap-3.3.7-dist/bootstrap.min.js"></script>
+	<script defer src="./js/mobileNav.js"></script>
 </head>
 <body>		
 	<nav id="mainNav" class="navbar navbar-inverse">
@@ -88,21 +90,9 @@
 						/>
 					</svg>
 
-					<li class=""><a href="./index.html">HOME</a></li>
+					<!-- <li class="active-nav"><a href="./index.html">HOME</a></li> -->
 					<li class="active-nav"><a href="menu.html">MENU</a></li>
-					<!-- <li><a href="#">About</a></li> -->
-					<!-- <li>
-					<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#">Menu <span class="caret"></span></a>
-						<ul class="dropdown-menu" role="menu">
-						<li><a href="brunch.html">Brunch</a></li>
-						<li><a href="menu.html">Main Menu</a></li>
-						<li><a href="drink.html">Drinks</a></li>
-						<li><a href="dessert.html">Dessert</a></li>
-						
-						</ul>
-				</li> -->
-					<!-- <li><a href="news.html">News</a></li>
-									<li><a href="gallery.html">Gallery</a></li> -->
+					<li><a href="about.html">ABOUT</a></li>
 				</ul>
 			</div>
 			<div class="menu-btn-container">
@@ -175,21 +165,8 @@
 			</div>
 		</div>
 	</nav>
-
-	<div class="menu-landing" id="land-menu">
-		<div class="landing-logo menu-landing-logo"></div>
-		
-		<div class="menu-nav">
-			<nav class="menu-top">
-				<li class="menu-toggle mt-1"><a href="brunch.html">Brunch</a></li>
-				<li class="menu-toggle mt-active mt-1"><a href="menu.html">Main</a></li>
-				<li class="menu-toggle mt-2"><a href="drink.html">Drinks</a></li>
-				<li class="menu-toggle mt-3"><a href="dessert.html">Dessert</a></li>
-			</nav>
-			
-		</div>
-		
-	</div>
+	
+	<div class="menu-splash half-splash"></div>
 
 
 
@@ -203,39 +180,7 @@
 				<div class="menu-items">
 
 					<div id="menusContainer"></div>
-					<script type="text/javascript" src="https://menus.singleplatform.co/businesses/storefront/?apiKey=ke09z8icq4xu8uiiccighy1bw">
-					</script>
-					<script>
-						
 
-							var options = {};
-							options['PrimaryBackgroundColor'] = '#ffffff';
-							options['MenuDescBackgroundColor'] = '#ffffff';
-							options['SectionTitleBackgroundColor'] = '#ffffff';
-							options['SectionDescBackgroundColor'] = '#ffffff';
-							options['ItemBackgroundColor'] = '#ffffff';
-							options['PrimaryFontFamily'] = 'Helvetica';
-							options['BaseFontSize'] = '16px';
-							options['FontCasing'] = 'Default';
-							options['PrimaryFontColor'] = '#333333';
-							options['MenuDescFontColor'] = '#333333';
-							options['SectionTitleFontColor'] = '#333333';
-							options['SectionDescFontColor'] = '#333333';
-							options['ItemTitleFontColor'] = '#333333';
-							options['FeedbackFontColor'] = '#333333';
-							options['ItemDescFontColor'] = '#333333';
-							options['ItemPriceFontColor'] = '#333333';
-							options['HideDisplayOptionPhotos'] = 'true';
-							options['HideDisplayOptionDisclaimer'] = 'true';
-							options['HideDisplayOptionFeedback'] = 'true';
-							options['HideDisplayOptionClaim'] = 'true';
-							options['MenuTemplate'] = '2';
-							options['MenuIframe'] = 'true';
-							options['DisplayMenu']  = '2090069';
-							new BusinessView("nammos-estiatorio-0", "menusContainer", options);
-					</script>
-
-							<div class="grid"></div>
 		</div>
 
 
@@ -273,13 +218,6 @@
 			<p><script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">document.write(new Date().getFullYear());</script> © Nammos Estiatorio All Rights Reserved</p>
 		</div>
 	</footer>
-
-
-	
-	<script src="../jquery-1.12.4/jquery-1.12.4.min.js"></script>
-    <script src="../bootstrap-3.3.7-dist/bootstrap.min.js"></script>
-
-
 
 </body>
 
