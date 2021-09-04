@@ -212,7 +212,7 @@ a {
   background-color: #fff;
   border: 2px solid #fff;
   color: black;
-  font-size: 13pt;
+  font-size: 1.8rem;
   z-index: 10;
   transition: all ease-in-out .2s;
 }
