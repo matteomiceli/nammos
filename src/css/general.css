@@ -544,7 +544,6 @@ p {
 
   .landing-logo {
     height: 250px;
-    /*position: fixed;*/
   }
 
   .hours-section {
@@ -619,7 +618,6 @@ p {
 
   .landing-logo {
     height: 325px;
-    /*position: fixed;*/
   }
 
   .news-type {
@@ -630,7 +628,6 @@ p {
   .landing {
     width: 100%;
     height: 100vh;
-    /*background-color: #f3f3f3;*/
     background: url(../images/home-back.jpg) 0 0 no-repeat fixed;
     background-size: cover;
     background-repeat: no-repeat;
