@@ -311,11 +311,6 @@ a #btn1:hover {
   text-decoration: none;
 }
 
-/* iframe {
-  height: 0px;
-  max-height: 0px;
-} */
-
 .menuIframe-home {
   max-height: 0px;
   overflow-y: hidden;
@@ -323,7 +318,6 @@ a #btn1:hover {
 }
 
 .expanded {
-  /* expanded class for sp_iframe */
   max-height: none !important;
   transition: all 0.5s ease-in-out;
 }
@@ -609,6 +603,11 @@ p {
 
   .menu-page-container {
     width: 80%;
+  }
+
+  /* MENU */
+  .menuIframe-menu {
+    border: 1px #666 solid;
   }
 
 }
