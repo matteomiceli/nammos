@@ -395,7 +395,7 @@ a #btn1:hover {
 
 .social-media-container {
   display: flex;
-  width: 140px;
+  width: 90px;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -625,8 +625,7 @@ p {
   }
 
   .social-media-container {
-    width: 100%;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .social-media {
@@ -697,7 +696,7 @@ p {
   }
 
   .about-container {
-    width: 70%;
+    width: 1000px;
     margin: 150px auto 200px;
   }
 
