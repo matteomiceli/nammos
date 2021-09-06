@@ -472,6 +472,37 @@ p {
   color: #666;
 }
 
+.menu-selector-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto 40px;
+  justify-content: space-around;
+  border-bottom: 2px transparent solid;
+}
+
+.menu-selector {
+  color: #666;
+  font-size: 1.8rem;
+  padding: 4px;
+  border-bottom: 2px transparent solid;
+  transition: all .2s ease-in-out;
+}
+
+.menu-selector:hover {
+  text-decoration: none;
+  color: #303030;
+}
+
+.menu-selector:focus {
+  text-decoration: none;
+  color: #303030;
+}
+
+.menu-selector-active {
+  border-bottom: 2px #303030 solid;
+  color: #303030;
+}
+
 @media only screen and (min-width: 450px) {
   .landing-logo {
     height: 225px;
@@ -603,7 +634,7 @@ p {
 
   /* MENU */
   .menuIframe-menu {
-    border: 1px #666 solid;
+    /* border: 1px #666 solid; */
   }
 
 }
