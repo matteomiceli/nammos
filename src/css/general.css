@@ -37,7 +37,7 @@ body {
   background: linear-gradient(
     180deg,
     rgba(25, 25, 25, 0.8) 0%,
-    rgba(0, 212, 255, 0) 92%
+    rgba(0, 0, 0, 0) 92%
   );
   border: none;
   border-radius: 0px;
