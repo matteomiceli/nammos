@@ -18,12 +18,10 @@
     <link rel="stylesheet" type="text/css" href="css/grid.css" />
     <script src="./jquery-1.12.4/jquery-1.12.4.min.js"></script>
     <script src="./bootstrap-3.3.7-dist/bootstrap.min.js"></script>
-    <script defer src="js/mobileNav.js"></script>
     <script defer src="js/homeMenu.js"></script>
-    <!--<script type="text/javascript" src='//places.singleplatform.com/static/js/mobile-redirect-min.js'></script>
-<script type="text/javascript">
-    redirect_mobile_browser('http://places.singleplatform.com/nammos-estiatorio-0/menu?ref=integration');
-</script>-->
+    <script defer src="js/mobileNav.js"></script>
+    <script defer src="js/menuSelector.js"></script>
+
   </head>
   <body>
     <nav id="mainNav" class="navbar navbar-inverse">
@@ -202,20 +200,22 @@
           be shared and enjoyed amongst the table.
         </h2>
         <div>
-          <div id="menusContainer" class="menuIframe-home">
+          <div id="menusContainer" class="menuIframe-menu menuIframe-home">
+            <div style="margin-top: 40px;" class="menu-selector-container">
+              <a href="#" id="brunch" class="menu-selector">Brunch</a>
+              <a href="#" id="dinner" class="menu-selector">Dinner</a>
+              <a href="#" id="drinks" class="menu-selector">Drinks</a>
+              <!-- <a href="#" id="dessert" class="menu-selector">Dessert</a> -->
+            </div>
             <script
-              defer
-              data-base_font_size="16px"
-              data-menu_desc_background_color="#ffffff"
-              data-primary_background_color="#ffffff"
-              data-section_desc_background_color="#ffffff"
-              data-section_title_background_color="#ffffff"
+              class="menu-script"
               data-hide_cover_photo="true"
               data-hide_disclaimer="true"
               data-location="nammos-estiatorio-0"
               data-api_key="ke09z8icq4xu8uiiccighy1bw"
               id="singleplatform-menu"
               src="https://menus.singleplatform.com/widget"
+              data-display_menu="2090069"
             ></script>
           </div>
           <button id="toggle-menu-btn" type="button">
@@ -321,6 +321,14 @@
                 alt="twitter"
             /></a>
           </div>
+        </div>
+        <div class="hours-container">
+          <p>Mon - Thurs 11am-10pm</p>
+          <p>Fri 11am - Late</p>
+          <p>Sat 10am - Late</p>
+          <p>Sun 10am - 10pm</p>
+          <p>Happy Hour 2-5pm</p>
+          <p>Closed Dec 24, 25, 26 and Jan 1</p>
         </div>
       </div>
     </div>
