@@ -173,7 +173,7 @@ li a:focus {
   height: 100vh;
   max-height: 1080px;
   min-height: 600px;
-  background: url(../images/home-back.jpg) fixed no-repeat;
+  background: url(../images/home-back.jpg) no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -553,6 +553,10 @@ p {
     background: transparent;
     position: static;
     pointer-events: all !important;
+  }
+
+  .landing{
+    background-attachment: fixed;
   }
 
   .s1-content {
