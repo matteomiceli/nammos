@@ -7,6 +7,7 @@ const drinks = $('#drinks');
 const dessert = $('#dessert');
 
 // iframe
+const iframeContainer = $('#menusContainer')
 const menuIframe = $('iframe');
 const url = "https://menus.singleplatform.com/widget"
 
@@ -40,6 +41,10 @@ function switchMenu (eventTarget, url) {
 
   // change menu iframe menu id and reload iFrame
   menuIframe.attr('src', url)
+  
+  // change menu iframe height to fit content
+  menuIframe.css('height', listOfMenuUrls[eventTarget.id].height)
+  iframeContainer.css('height', listOfMenuUrls[eventTarget.id].height)
 }
 
 
